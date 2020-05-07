@@ -1,0 +1,39 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+body
+{
+    background:linear-gradient(#021b79,transparent),url(fav.jpg);
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    height:auto;
+    font-family: 'oswald';
+}
+table{
+    width:400px;
+    margin:0 auto;
+
+}
+th{
+    text align:center;
+
+}
+table,th,td{
+    border:1px solid#000;
+    border-collapse:collapse;
+}
+th,td{
+    padding:10px;
+}
+}
+p{
+    text-align:center;
+    letter-spacing:1px;
+    font-size:45px;
+    margin-bottom:20px;
+}
+
+
