@@ -1,29 +1,30 @@
 <!DOCTYPE html>
 <html>
-<head><h1 style="color:white;"><center>CONTACT FORM</center></h1>
-<title> </title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    
+<head><h1 style="color:white;" ><center>CONTACT FORM</center></h1>
+<title> </title><table align="center">
+<link rel="stylesheet" type="text/css" href="style.css">
+
 </head>
 <body  bgcolor="white">
-<form>
-<table align="center">
+    <div class="contact-box">
+<form id="contactform">
+
 <tr>
 <td>
 First Name:
 </td>
 <td>
-<input type="text" placeholder="First Name" name="">
+<input type="text" placeholder="First Name" name=""  id="firstname">
 </td>
 </tr><tr>
-    <td>Last Name:</td><td><input type="text" placeholder="Last Name" name=""></td>
+    <td>Last Name:</td><td><input type="text" placeholder="Last Name" name="" id="lastname"></td>
 </tr><tr>
-<td>Email:</td><td><input type="mail" placeholder="Email" name=""></td>
+<td>Email:</td><td><input type="email" placeholder="Email" name=""  id="email"></td>
 </tr>
 
 <tr>
     <td>Password:</td>
-    <td><input type="Password"  placeholder="password" name=""></td>
+    <td><input type="Password"  placeholder="password" name="" id="password"></td>
 </tr>
 <tr>
     <td>
@@ -40,14 +41,19 @@ First Name:
     </select>
 <input type="Phone" placeholder="98765*********" name=""></td>
 <tr>
-    <td>Message:</td><td><input type="Message" placeholder="Message" name=""></td>
+    <td>Message:</td><td><input type="Message" placeholder="Message" name="" id="message"></td>
 </tr>
 <tr>
     <td>
-        <input type="Submit" value="submit" name=""> 
+        <input type="Submit" value="submit" name="" button type="submit"> 
         <input type="Reset" value="Reset" name="">  </td>
 </tr>
 </table>
 </form>
+</div>
+<script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-app.js"></script>
+
+<script scr="main.js"></script>
+
 </body>
 </html>
